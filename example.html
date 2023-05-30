@@ -23,9 +23,9 @@
                         x.innerHTML = "use API";
                         var h3I = h3.innerHTML;
                         if(!("error_code" in obj)){
-                           var a = obj.result; // Result Code (example: {200})
-                           var b = obj.domain; // Your Domain Name (example: {google.com})
-                           var c = obj.query; // Query text (example: {...})
+                           var a = obj.result; // Result code (example: {200})
+                           var b = obj.domain; // The DomainName you submitted (example: {google.com})
+                           var c = obj.query; // Query from that domain's nic server (example: {...})                           
                            var d = obj.datetime; // persian date&time (example: {1401/10/19 23:11})
                            var e = obj.time; // time in second (example: {1673293463})
                            var f = obj.ip; // user ip  (example: {5.126.135.150})
