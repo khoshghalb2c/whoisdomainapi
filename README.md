@@ -22,15 +22,17 @@ If there is no problem with the values you sent, Api return below fields:
 
 ## What is the code and meaning of the errors?
 If the API give error, it is definitely one of the following values:
-1. APIKEY is incorrect <sub>code: **101**</sub>
-2. APIKEY is empty <sub>code: **102**</sub>
-3. APIKEY don't send <sub>code: **103**</sub>
-4. DomainName is invalid <sub>code: **104**</sub>
-5. DomainName is empty <sub>code: **105**</sub>
-6. DomainName don't send <sub>code: **106**</sub>
-7. The Domain's nic server, not found in the list. <sub>code: **301**</sub>
-8. Could not connect to that domain's nic server <sub>code: **302**</sub>
-9. An unknown error has occurred. Make sure the DomainName is correct  <sub>code: **303**</sub>
+1. APIKEY expired <sub>code: **100**</sub>
+2. APIKEY is incorrect <sub>code: **101**</sub>
+3. APIKEY is empty <sub>code: **102**</sub>
+4. APIKEY don't send <sub>code: **103**</sub>
+5. DomainName is invalid <sub>code: **104**</sub>
+6. DomainName is empty <sub>code: **105**</sub>
+7. DomainName don't send <sub>code: **106**</sub>
+8. APIKEY limit is over <sub>code: **107**</sub>
+9. The Domain's nic server, not found in the list. <sub>code: **301**</sub>
+10. Could not connect to that domain's nic server <sub>code: **302**</sub>
+11. An unknown error has occurred. Make sure the DomainName is correct  <sub>code: **303**</sub>
 
 ## Attentions!
 - In case of an error, the name of the returned values is `error_code` and `error_text`.
@@ -42,5 +44,5 @@ If the API give error, it is definitely one of the following values:
 
 ## Licence
 ```
-Copyright © 2023 Khoshghalb2c.ir. All Rights Reserved.
+Copyright © 2022-2024 Khoshghalb2c.ir. All Rights Reserved.
 ```
