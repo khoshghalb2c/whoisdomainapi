@@ -1,9 +1,8 @@
 # WhoisDomainAPI
 Query domains using this API.
 
-[![Donate](DonateIDPay.svg)](https://idpay.ir/khoshghalb2c/)
 ## Getting Started
-Read the description below to get started with `whoisdomainAPI`.
+Read the description below to get started with **whoisdomainAPI**.
 
 ## How to use?
 You need to send 2 parameters to the server and wait for the response.
@@ -13,12 +12,12 @@ You need to send 2 parameters to the server and wait for the response.
 
 ## What is the API response?
 If there is no problem with the values you sent, Api return below fields:
-1. Result code; with the name `result`
-2. The DomainName you submitted; with the name `domain`
-3. Query from that domain's nic server; with the name `query`
-4. Mondified DateTime in Tehran Time; with name `datetime`
-5. Time method; with name `time`
-6. Your IP; with name `ip`
+1. Result code; named `result`
+2. The DomainName you submitted; named `domain`
+3. Query from that domain's nic server; named `query`
+4. Mondified DateTime in Tehran Time; named `datetime`
+5. _time()_ method in php; named `time`
+6. Your IP; named `ip`
 
 ## What is the code and meaning of the errors?
 If the API give error, it is definitely one of the following values:
@@ -40,9 +39,8 @@ If the API give error, it is definitely one of the following values:
 - Contact me to get `APIKEY`.
 - You must be send your fields to `https://khoshghalb2c.ir/api/whois/index.php` with **`POST`** method.
 - See example in [here](example.html).
-- You are can whois from your domain in [this](https://khoshghalb2c.ir/whois) link without Api.
 
 ## Licence
 ```
-Copyright © 2022-2024 Khoshghalb2c.ir. All Rights Reserved.
+Copyright © 2022-2025 Khoshghalb2c.ir. All Rights Reserved.
 ```
