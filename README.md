@@ -18,6 +18,9 @@ If there is no problem with the values you sent, Api return below fields:
 4. Mondified DateTime in Tehran Time; named `datetime`
 5. _time()_ method in php; named `time`
 6. Your IP; named `ip`
+> [!TIP]
+> When your <ins>non-IR</ins> domain query is successful, the `result` is **200**. <br/>
+> When your <ins>IR</ins> domain query is successful, the `result` will be one of either **201**, **202**, or **203**.
 
 ## What is the code and meaning of the errors?
 If the API give error, it is definitely one of the following values:
@@ -32,10 +35,10 @@ If the API give error, it is definitely one of the following values:
 9. The Domain's nic server, not found in the list. <sub>code: **301**</sub>
 10. Could not connect to that domain's nic server <sub>code: **302**</sub>
 11. An unknown error has occurred. Make sure the DomainName is correct  <sub>code: **303**</sub>
+> [!NOTE]
+> If an error occurs, the return values ​​are named `error_code` and `error_text`.
 
 ## Attentions!
-- In case of an error, the name of the returned values is `error_code` and `error_text`.
-- One of the response fields is ResultCode. ResultCode is usually 200.
 - Contact me to get `APIKEY`.
 - You must be send your fields to `https://khoshghalb2c.ir/api/whois/index.php` with **`POST`** method.
 - See example in [here](example.html).
