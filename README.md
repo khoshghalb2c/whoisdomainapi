@@ -43,6 +43,22 @@ If the API give error, it is definitely one of the following values:
 - You must be send your fields to `https://khoshghalb2c.ir/api/whois/index.php` with **`POST`** method.
 - See example in [here](example.html).
 
+## What servers are supported?
+<table>
+    <tr><td colspan="4"><b>Supported Whois Server</b></td></tr>
+    <tr><td>.biz</td><td>.cl</td><td>.ac</td><td>.to</td></tr>
+    <tr><td>.com</td><td>.cn</td><td>.ae</td><td>.tv</td></tr>
+    <tr><td>.us</td><td>.cz</td><td>.at</td><td>.ru</td></tr>
+    <tr><td>.coop</td><td>.de</td><td>.au</td><td>.org</td></tr>
+    <tr><td>.info</td><td>.fr</td><td>.be</td><td>.aero</td></tr>
+    <tr><td>.name</td><td>.hu</td><td>.bg</td><td>.nl</td></tr>
+    <tr><td>.net</td><td>.ie</td><td>.br</td><td>.uk</td></tr>
+    <tr><td>.gov</td><td>.il</td><td>.bz</td><td>.us</td></tr>
+    <tr><td>.edu</td><td>.in</td><td>.ca</td><td>.travel</td></tr>
+    <tr><td>.mil</td><td>.ir</td><td>.cc</td><td>.gov</td></tr>
+    <tr><td>.int</td><td>.mc</td><td>.ch</td><td>.it</td></tr>
+</table>
+
 ## Licence
 ```
 Copyright © 2022-2025 Khoshghalb2c.ir. All Rights Reserved.
