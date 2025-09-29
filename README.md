@@ -1,3 +1,9 @@
+# ALERT
+> [!CAUTION]
+> This API has been **<ins>expired</ins>** since ***<ins>September 29, 2025</ins>***
+
+> You can see [this](https://github.com/khoshghalb2c/whoisdomain) to use whois domain.
+
 # WhoisDomainAPI
 Query domains using this API.
 
@@ -40,7 +46,7 @@ If the API give error, it is definitely one of the following values:
 
 ## Attentions!
 - Contact me to get `APIKEY`.
-- You must be send your fields to `https://khoshghalb2c.ir/api/whois/index.php` with **`POST`** method.
+- You must be send your fields to ~`https://khoshghalb2c.ir/api/whois/index.php`~ with **`POST`** method.
 - See example in [here](example.html).
 
 ## What servers are supported?
